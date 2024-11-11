@@ -3,12 +3,12 @@ public interface LogObserver{
 }
 class ConsoleLogObserver implements LogObserver{
     public void update(String logMessage){
-        System.out.println("console logger :"+logMessage);
+        System.out.println("Console logger :"+logMessage);
     }
 }
 class FileLogObserver implements LogObserver {
     public void update(String logMessage){
-        System.out.println("console logger :"+logMessage);
+        System.out.println("File logger :"+logMessage);
     }
     
 }
